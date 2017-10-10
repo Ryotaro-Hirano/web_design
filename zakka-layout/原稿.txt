@@ -1,0 +1,91 @@
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+雑貨サイトマークアップ用原稿
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+■タイトル
+frame
+
+■ロゴ画像挿入
+logo.png　		alt：frame
+
+■リード画像挿入
+read.jpg　		alt：Scandinavian Furniture
+
+■フォーム要素挿入
+
+
+■ナビ画像6点挿入
+nav_home.png　		alt：HOME
+nav_about.png　		alt：ABOUT
+nav_item.png　		alt：ITEM
+nav_access.png　	alt：ACCESS
+nav_blog.png　		alt：BLOG
+nav_contact.png　	alt：CONTACT
+
+
+■メイングラフィック画像挿入
+maingra.jpg		alt：空
+
+
+■reccomend見出し画像挿入
+title_reccomend.jpg	alt：recommended items
+
+■テキスト挿入
+
+FRAMEは、北欧で活躍するクリエイターの家具や雑貨を販売しています。今月のおすすめ商品をご紹介します。
+
+
+■商品画像とテキスト挿入
+
+【1点目】
+img_pot.jpg		alt：空
+
+ホーロー製ケトル・ポット
+
+￥4,725（税込）
+
+
+【2点目】
+img_mug.jpg		alt：空
+
+マグカップ
+
+￥2,100（税込）
+
+【3点目】
+img_album.jpg		alt：空
+
+フォトアルバム
+
+￥1,365（税込）
+
+【4点目】
+img_pen.jpg		alt：空
+
+ボールペン
+
+￥158（税込）
+
+
+■_news見出し画像挿入
+title_news.jpg		alt：what's new
+
+
+■テキスト挿入（定義リスト使用）
+
+2012.04.24
+
+CAFEスペースがオープンいたします。
+
+2012.04.20
+
+スタッフ・インテリアデザイナー／アシスタントデザイナーを募集中です。
+
+2012.04.05
+
+FRAMEがオープンいたします。
+
+
+
+■テキスト挿入（コピーライト）
+
+CopyrightFRAME Inc. All Rights Reserved.
