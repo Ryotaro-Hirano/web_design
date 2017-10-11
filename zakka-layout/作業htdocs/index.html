@@ -1,43 +1,135 @@
 <!DOCTYPE html>
 <!-- xml1.0の記述をしてください！ -->
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>frame</title>
-  </head>
-  <body>
-    <h1>
-      <img src="images/logo.png" width="130" height="27"alt="frame">
-    </h1>
-    <p>
-      <img src="images/read.jpg" width="157" height="11" alt="Scandinavian Furniture">
-    </p>
-    <form id="form1" action="" method="post" name="form1">
-      <input type="text" name="search" value="textfield" id="search">
-      <input type="image" name="imageBtn" id="imageBtn" src="images/icon_search.png">
-    </form>
-    <ul>
-      <li>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/css">
+  <title>frame</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <!-- container -->
+  <div class="container">
+    <!-- header -->
+    <div id="header">
+      <h1>
+        <img src="images/logo.png" width="130" height="27"alt="frame">
+      </h1>
+      <p>
+        <img src="images/read.jpg" width="157" height="11" alt="Scandinavian Furniture">
+      </p>
+      <form id="form1" action="" method="post" name="form1">
+        <input type="text" name="search" value="textfield" id="search">
+        <input type="image" name="imageBtn" id="imageBtn" src="images/icon_search.png">
+      </form>
+    </div>
+    <!-- header -->
+
+    <!-- nav -->
+    <ul id="nav">
+      <li><a href="#">
         <img src="images/nav_home.png" width="41" height="11" alt="HOME">
+        </a>
       </li>
-      <li>
+      <li><a href="#">
         <img src="images/nav_about.png" width="48" height="11" alt="ABOUT">
+        </a>
       </li>
-      <li>
-        <img src="images/nav_item.png" width="32" height="11" alt="ITEM">
+      <li><a href="#">
+        <img src="images/nav_item.png" width="32" height="11" alt="ITEM"></a>
       </li>
-      <li>
-        <img src="images/nav_access.png" width="57" height="11" alt="ACCESS">
+      <li><a href="#">
+        <img src="images/nav_access.png" width="57" height="11" alt="ACCESS"></a>
       </li>
-      <li>
-        <img src="images/nav_blog.png" width="38" height="11" alt="BLOG">
+      <li><a href="#">
+        <img src="images/nav_blog.png" width="38" height="11" alt="BLOG"></a>
       </li>
-      <li>
-        <img src="images/nav_contact.png" width="67" height="11" alt="CONTACT">
+      <li><a href="#">
+        <img src="images/nav_contact.png" width="67" height="11" alt="CONTACT"></a>
       </li>
     </ul>
-    <p>
+    <!-- nav -->
 
-    </p>
-  </body>
+    <!-- contents -->
+    <div id="contents">
+
+      <p><a href="#">
+        <img src="images/maingra.jpg" width="790" height="420" alt=""></a>
+      </p>
+
+      <!-- recommended -->
+      <div id="recommended">
+        <h2>
+        <img src="images/title_reccomend.jpg" width="137" height="9" alt="recommended items">
+      </h2>
+        <p>
+          FRAMEは、北欧で活躍するクリエイターの家具や雑貨を販売しています。今月のおすすめ商品をご紹介します。
+        </p>
+
+        <div class="box">
+          <p>
+            <img src="images/img_pot.jpg" width="110" height="86" alt="">
+          </p>
+          <h3>ホーロー製ケトル・ポット</h3>
+          <p>￥4,725（税込）</p>
+        </div>
+
+        <div class="box">
+          <p>
+            <img src="images/img_mug.jpg" width="110" height="86" alt="">
+          </p>
+          <h3>マグカップ</h3>
+          <p>¥2,100（税込）</p>
+        </div>
+
+        <div class="box">
+          <p>
+            <img src="images/img_album.jpg" width="110" height="86" alt="">
+          </p>
+          <h3>フォトアルバム</h3>
+          <p>¥1,365（税込）</p>
+        </div>
+
+        <div class="box">
+          <p>
+            <img src="images/img_pen.jpg" width="110" height="86" alt="">
+          </p>
+          <h3>ボールペン</h3>
+          <p>¥158（税込）</p>
+        </div>
+
+      </div>
+      <!-- recommended -->
+
+      <!-- news -->
+      <div id="news">
+        <h2>
+        <img src="images/title_news.jpg" width="77" height="9" alt="what's new">
+      </h2>
+        <dl>
+          <dt>2012.04.24</dt>
+          <dd><a href="#">CAFEスペースがオープンいたします。</a></dd>
+          <dt>2012.04.20</dt>
+          <dd><a href="#">スタッフ・インテリアデザイナー／アシスタントデザイナーを募集中です。</a></dd>
+          <dt>2012.04.05</dt>
+          <dd><a href="#">FRAMEがオープンいたします。</a></dd>
+        </dl>
+      </div>
+      <!-- news -->
+
+      <!-- footer -->
+      <div id="footer">
+        <p>Copyrigh&copy;FRAME Inc. All Rights Reserved.</p>
+      </div>
+      <!-- footer -->
+
+    </div>
+    <!-- contents -->
+  </div>
+  <!-- container -->
+</body>
+
 </html>
